@@ -1,7 +1,7 @@
 import os
 import sys
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '../config/', './test')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../config/')))
 config_path = "../config/"
 
 print os.getcwd()
